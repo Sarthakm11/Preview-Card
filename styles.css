@@ -1,0 +1,120 @@
+body{
+ background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin: 16px 0;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 95%;
+  padding-bottom: 18%;
+}
+
+img{
+ margin: 7px 0;
+}
+
+.btn{
+  border-radius: 25px;
+  color:hsl(0, 0%, 95%);
+  margin: 10px 0;
+}
+
+.sedan{
+  color: hsl(31, 77%, 52%);
+}
+
+.suv{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+  color: hsl(179, 100%, 13%);
+}
+
+.sedan:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border-color: white;
+}
+
+.suv:hover{
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border-color: white;
+}
+
+.luxury:hover{
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border-color: white;
+}
+
+.container-fluid{
+
+  padding: 5.35% 15%;
+  margin: auto;
+
+}
+
+.col-lg-4{
+  padding: 4.5%;
+}
+
+.column1{
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.column2{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.column3{
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+/* pre-typed */
+.attribution {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.press{
+  opacity: 0.5;
+}
+@media (max-width: 991px) {
+  p{
+    padding-bottom: 5%;
+  }
+  .container-fluid{
+    padding: 15%;
+  }
+  .column1{
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 0;
+  }
+  .column3{
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 0;
+  }
+  .col-lg-4{
+    padding: 10% 15%;
+  }
+}
